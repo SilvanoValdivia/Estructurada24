@@ -55,6 +55,7 @@ cout<< "{" ar[i]<< "}, " endl;
  } //fn de caso 3
  case '4': {
  ciclo = false
+ }//fin case 4
  case '5': {
 cout<<"Borra un balor: ;";
 cin >> val; //pedir valor al ususario
@@ -73,7 +74,9 @@ pos++ //incremento de la posicion
 } // fin else
 break;
 }//fin case 6
- } // fin caso 4
+default: {
+cout<< "Seleccion no valida"<<endl;
 } //fin de switch
 }
+return 0;
 }
