@@ -27,7 +27,7 @@ cout<<"3. listado de valores" <<endl;
 cout<<"4. Salir del programa" <<endl;
 cout<<"5. Borrar datos" <<endl;
 cout<<"6. Editar datos" <<endl;
-cout<< "Elige una opcion: ";
+cout<< "Elige una opcion: "<<endl;
 cin >> op;
 switch (op){
 case '1': {
